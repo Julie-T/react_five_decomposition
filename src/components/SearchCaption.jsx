@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 const SearchCaption = (props) => {
   return (
-    <div>Найдется всё. Например, {props.text}</div>
+    <a href='/#/react'>Найдется всё. Например, {props.text}</a>
   )
 }
 

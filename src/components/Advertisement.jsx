@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 const Advertisement = (props) => {
   return (
-    <div>
+    <div className='adv'>
         <img src={props.imgSrc} alt={props.imgAlt}/>
     </div>
   )

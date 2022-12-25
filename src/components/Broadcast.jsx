@@ -3,8 +3,8 @@ import PropTypes from 'prop-types'
 
 const Broadcast = (props) => {
   return (
-    <div>
-        <div>{props.text}</div>
+    <div className='broadcast'>
+        <a href='/#/react'>{props.text}</a>
         <div>{props.children}</div>
     </div>
   )

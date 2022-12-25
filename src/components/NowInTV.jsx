@@ -4,9 +4,9 @@ import PropTypes from 'prop-types'
 const NowInTV = (props) => {
   return (
     <div>
-        <span>{props.time}</span>
-        <span>{props.text}</span>
-        <span>{props.channel}</span>
+        <span href='/#/react'>{props.time}</span>
+        <a href='/#/react'>{props.text}</a>
+        <a href='/#/react'>{props.channel}</a>
     </div>
   )
 }

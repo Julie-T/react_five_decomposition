@@ -3,13 +3,14 @@ import PropTypes from 'prop-types'
 
 const Weather = (props) =>{
   return (
-    <div>
-        <span>Погода</span>
-        <div>
-            <div>{props.t}</div>
+    <div className='weather'>
+        <a href='/#/react'>Погода</a>
+        <div className='weather-content'>
+            <img className='tv-img-label' src={props.imgSrc} alt={props.imgAlt}/>
+            <a href='/#/react'>{props.t}</a>
             <div>
-                <div>Утром {props.morning}</div>
-                <div>Днем {props.day}</div>
+                <a href='/#/react'>Утром {props.morning}</a>
+                <a href='/#/react'>Днем {props.day}</a>
             </div>
         </div>
     </div>

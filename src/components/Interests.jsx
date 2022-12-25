@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 const Interests =  (props) => {
   return (
-    <div>{props.text} {props.children}</div>
+    <a href='/#/react' className='interests'>{props.text} {props.children}</a>
   )
 }
 

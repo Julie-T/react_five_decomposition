@@ -4,8 +4,8 @@ import PropTypes from 'prop-types'
 const Interest = (props) => {
   return (
     <div>
-        <span>{props.topic}</span>
-        <span>{props.text}</span>
+        <a href='/#/react'>{props.topic}</a>
+        <a href='/#/react'>{props.text}</a>
     </div>
   )
 }

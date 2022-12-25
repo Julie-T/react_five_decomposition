@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 const Subject = (props) => {
   return (
-    <span>{props.text}</span>
+    <a href='/#/react'>{props.text}</a>
   )
 }
 

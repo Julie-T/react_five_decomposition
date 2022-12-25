@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 const Themes = (props) => {
   return (
-    <div>{props.children}</div>
+    <div className='themes'>{props.children}</div>
   )
 }
 

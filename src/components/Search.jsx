@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 const Search = (props) => {
   return (
-    <div>{props.children}</div>
+    <div className='search'>{props.children}</div>
   )
 }
 

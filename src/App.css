@@ -9,10 +9,53 @@
     margin-right: auto;
     width: 80%;
     justify-content: space-between;
-    
+    align-items: center;
 }
 
-.media {
-    display: block;
-    width: 300px;
+.main-block-label {
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 50px;
 }
+
+.main-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.search {
+    display: block;
+}
+
+.adv {
+    display: block;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.themes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.broadcast, .weather, .tv, .interests, .maps {
+    display: block;
+    min-width: 350px;
+    margin-bottom: 20px;
+}
+
+.news, .now-in-broadcast, .tv-img, .weather-content {
+    display: flex;
+}
+
+.broadcast-channel, .broadcast-text, .news-text, .tv-img-label {
+    display: block;
+    margin-left: 8px;
+}
+
+

@@ -3,9 +3,10 @@ import PropTypes from 'prop-types'
 
 const LearnAbout = (props) => {
   return (
-    <div>
-        <div>{props.title}</div>
-        <div>{props.text}</div>
+    <div className='learn-about'>
+        <img className='tv-img-label' src={props.imgSrc} alt={props.imgAlt}/>
+        <a href='/#/react'>{props.title}</a>
+        <a href='/#/react'>{props.text}</a>
     </div>
   )
 }

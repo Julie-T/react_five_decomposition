@@ -3,7 +3,10 @@ import PropTypes from 'prop-types'
 
 const Maps = (props) => {
   return (
-    <div>{props.text}</div>
+    <div className='maps'>
+      <a href='/#/react'>{props.topic}</a>
+      <a href='/#/react'>{props.text}</a>
+    </div>
   )
 }
 
