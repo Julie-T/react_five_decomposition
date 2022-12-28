@@ -61,14 +61,14 @@ const Decomposition = () => {
               <Subject text='Эфир '/>
               <Subject text='ещё '/>
             </div>
-            <SearchField/>
+            <SearchField nameOfButton='Найти'/>
             <SearchCaption text='фаза луны сегодня'/>
           </Search>
       
           <Advertisement imgSrc='/#/react' imgAlt='ФОРСАЖ'/>
       
           <Themes>
-            <Weather imgSrc='/#/react' imgAlt='icon' t='+17' morning='+17' day='+20'/>
+            <Weather topic='Погода' imgSrc='/#/react' imgAlt='icon' t='+17' morning='+17' day='+20'/>
             <Maps topic='Карта Германии' text='Расписания'/>
             <Broadcast text='Эфир'>
               <NowInBroadcast imgSrc='/#/react' imgAlt='icon' text='Управление как искусство' channel='Успех'/>

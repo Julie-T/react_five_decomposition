@@ -1,3 +1,12 @@
+/**
+ * Функция для создания блока с телепрограммой
+ * @param {string} props.text - Заголовок блока
+ * @param {string} props.imgSrc - Ссылка на изображение
+ * @param {string} props.imgAlt - Подпись для изображения
+ * @param {object} props.children - Список программ
+ * @returns {object} Блок карты
+ */
+
 import React from 'react'
 import PropTypes from 'prop-types'
 

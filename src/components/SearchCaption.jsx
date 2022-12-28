@@ -1,3 +1,9 @@
+/**
+ * Функция для создания примера запроса блока поиска
+ * @param {string} props.text - Пример запроса
+ * @returns {object} Пример запроса
+ */
+
 import React from 'react'
 import PropTypes from 'prop-types'
 

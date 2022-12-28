@@ -1,3 +1,10 @@
+/**
+ * Функция для создания блока эфира
+ * @param {string} props.text - Заголовок блока
+ * @param {object} props.children - Список программ в эфире
+ * @returns {object} Блок эфира
+ */
+
 import React from 'react'
 import PropTypes from 'prop-types'
 

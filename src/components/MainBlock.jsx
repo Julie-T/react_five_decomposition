@@ -1,3 +1,9 @@
+/**
+ * Функция для создания общего блока с поиском и темами
+ * @param {string} props.children - Блок с поиском и темами
+ * @returns {object} Блок с поиском и темами
+ */
+
 import React from 'react'
 import PropTypes from 'prop-types'
 

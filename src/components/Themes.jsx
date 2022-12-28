@@ -1,3 +1,9 @@
+/**
+ * Функция для создания нижнего блока с темами
+ * @param {string} props.children - Блок с темами
+ * @returns {object} Блок с темами
+ */
+
 import React from 'react'
 import PropTypes from 'prop-types'
 

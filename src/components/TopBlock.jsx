@@ -1,3 +1,9 @@
+/**
+ * Функция для создания верхнего блока страницы
+ * @param {string} props.children - Блока страницы
+ * @returns {object} Блок страницы
+ */
+
 import React from 'react'
 import PropTypes from 'prop-types'
 

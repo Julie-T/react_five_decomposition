@@ -1,3 +1,13 @@
+/**
+ * Функция для создания блока новостей
+ * @param {string} props.mainTitle - Сейчас в СМИ
+ * @param {string} props.title - Новости в другой стране
+ * @param {string} props.recomends - Рекоммендации
+ * @param {string} props.date - Дата
+ * @param {object} props.children - Описание
+ * @returns {object} Блок новостей
+ */
+
 import React from 'react'
 import PropTypes from 'prop-types'
 

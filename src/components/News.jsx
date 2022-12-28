@@ -1,3 +1,11 @@
+/**
+ * Функция для создания элемента списка новостей
+ * @param {string} props.imgSrc - Ссылка на изображение
+ * @param {string} props.imgAlt - Подпись для изображения
+ * @param {string} props.text - Описание
+ * @returns {object} Элемент списка новостей
+ */
+
 import React from 'react'
 import PropTypes from 'prop-types'
 
